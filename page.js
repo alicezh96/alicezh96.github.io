@@ -1,5 +1,9 @@
 /* AOS*/
-
+this.onload = function(){        
+    AOS.init({
+        duration: 1000
+    })  
+}
 
 /* Open Home Page onClick */
 function openHome() {

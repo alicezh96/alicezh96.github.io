@@ -1,6 +1,21 @@
 /* AOS */
 <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
+* {
+  box-sizing: border-box;
+}
+
+#item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+
 /* SECTIONS */
 #home {
     display: block;
